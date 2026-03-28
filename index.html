@@ -84,7 +84,7 @@
     <script type="text/javascript">
         // 1. INICIALIZAÇÃO (Substitua pela sua Public Key)
         (function() {
-            emailjs.init("SUA_PUBLIC_KEY_AQUI");
+            emailjs.init("irMj45t3AL0ig7KMI");
         })();
 
         const btn = document.getElementById('submit-btn');
@@ -100,8 +100,8 @@
             btn.classList.add('opacity-50');
 
             // 2. ENVIO (Substitua pelos seus IDs do Dashboard)
-            const serviceID = 'default_service';
-            const templateID = 'seu_template_id';
+            const serviceID = 'service_aeh748f';
+            const templateID = 'template_rx5d91h';
 
             emailjs.sendForm(serviceID, templateID, this)
                 .then(() => {
@@ -120,6 +120,8 @@
                     console.error('EmailJS Error:', err);
                 });
         });
+
+                                      
     </script>
 
 </body>
